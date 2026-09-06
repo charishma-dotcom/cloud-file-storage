@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Java / Maven
+target/
+*.class
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded files
+uploads/
+
+# Test / temporary files
+login.json
+reset.json
+public-link.json
+downloaded-test-editor.txt
+editor-test.txt
+test-editor.txt
+
+# Editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
